@@ -7,7 +7,7 @@ require("@babel/polyfill");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 async function main() {
-  await _app.default.listen(3000);
+  await _app.default.listen();
   console.log("servidor levantado en el puerto 3000");
 }
 
